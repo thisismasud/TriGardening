@@ -29,7 +29,14 @@
   .bgLightOrange {
     background-color: var(--secondaryOrange);
   }
-  .buttonStroke{
+  .buttonStroke {
     border: var(--buttonStroke);
   }
+  .primary_text {
+    color: var(--primaryGreen);
+  }
+  .secondary_text {
+    color: var(--secondaryGreen);
+  }
+  
 }

@@ -7,7 +7,7 @@ import Logo from "../Logo";
 
 const Header = () => {
   return (
-    <header className="flex justify-center items-center sm:gap-20 gap-10 bgGreen min-h-[91px] text-white">
+    <header className="flex justify-center px-5 items-center md:gap-10 lg:gap-20 gap-5 bgGreen min-h-[91px] text-white">
       {/* Logo */}
       <Logo />
 

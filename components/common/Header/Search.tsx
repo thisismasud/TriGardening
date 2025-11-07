@@ -1,7 +1,7 @@
 import { Search } from "lucide-react";
 const SearchComp = () => {
   return (
-    <div className="buttonStroke py-2 border rounded-full sm:flex-center hidden">
+    <div className="buttonStroke py-2 border rounded-full flex-center">
       <input
         type="text"
         placeholder="Search plants, tools"
