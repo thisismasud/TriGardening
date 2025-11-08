@@ -6,8 +6,8 @@ import Category from "./Category";
 
 const CategoryOverview = () => {
   return (
-    <section className="mt-10 px-20" aria-label="Shop By Category">
-      <h2 className="primary_text text-[52px] font-semibold text-center px-10">
+    <section className="mt-10 px-20" aria-label="Category Overview">
+      <h2 className="primary_text text-[52px] font-semibold text-center">
         Shop by Category
       </h2>
       {/* categories */}

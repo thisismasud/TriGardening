@@ -11,7 +11,7 @@ const Hero = () => {
     { id: 3, active: false },
   ];
   return (
-    <div className="relative w-full h-[90vh]">
+    <section className="relative w-full h-[90vh]" aria-label="Hero Section">
       <Image
         src={BannerImage}
         alt=""
@@ -54,7 +54,7 @@ const Hero = () => {
           />
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
 @theme {
   --primaryGreen: #2d5016;
   --secondaryGreen: #7a9b57;
@@ -26,6 +31,9 @@
   .bgOrange {
     background-color: var(--complementaryOrange);
   }
+  .bgLightgreen {
+    background-color: var(--secondaryGreen);
+  }
   .bgLightOrange {
     background-color: var(--secondaryOrange);
   }
@@ -38,5 +46,7 @@
   .secondary_text {
     color: var(--secondaryGreen);
   }
-  
+  .orangeText {
+    color: var(--complementaryOrange);
+  }
 }
