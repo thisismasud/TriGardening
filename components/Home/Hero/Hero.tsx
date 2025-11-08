@@ -12,6 +12,7 @@ const Hero = () => {
   ];
   return (
     <section className="relative w-full h-[90vh]" aria-label="Hero Section">
+        {/* background banner */}
       <Image
         src={BannerImage}
         alt=""
@@ -21,7 +22,7 @@ const Hero = () => {
       />
       <div className="absolute inset-0 bg-black/20 backdrop-blur-[1px]" />
 
-      {/* TEXT OVERLAY */}
+      {/* Text Overlay */}
       <div className="absolute inset-0 flex flex-col items-start justify-center text-white ml:10 md:ml-40">
         <div>
           <h1 className="text-[60px] font-semibold">

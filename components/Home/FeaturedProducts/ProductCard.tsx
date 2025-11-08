@@ -12,7 +12,7 @@ export const ProductCard = ({
   numberOfReviews,
 }) => {
   return (
-    <div className="group relative max-w-[360px] w-full rounded-2xl bg-white shadow-2xl overflow-hidden cursor-pointer">
+    <div className="group relative max-w-[360px] w-full rounded-2xl bg-white shadow-xl overflow-hidden cursor-pointer">
       {/* IMAGE AREA */}
       <div className="relative w-full min-h-[238px] rounded-t-2xl overflow-hidden">
         <Image src={img} alt={title} fill className="object-cover" />
@@ -38,7 +38,7 @@ export const ProductCard = ({
         </div>
       </div>
 
-      {/* Product (no overlay) */}
+      {/*main Product (no overlay) */}
       <div className="flex flex-col p-6 transition duration-300 group-hover:opacity-60">
         <h3 className="primary_text text-[22px] font-medium">{title}</h3>
         <p className="text-[#A7A7A7] text-[18px]">{subtitle}</p>
@@ -53,7 +53,7 @@ export const ProductCard = ({
         <AddToCartBtn />
       </div>
 
-      {/* View Details bottom  (slides up) */}
+      {/* View Details button bottom  (slides up) */}
       <Link
         href="/details"
         className="
