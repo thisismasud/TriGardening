@@ -50,7 +50,7 @@ const ProductCarousel = ({ products }) => {
 
       {/* Embla Viewport */}
       <div className="overflow-hidden flex-1 mx-4" ref={emblaRef}>
-        <div className="flex gap-3">
+        <div className="flex gap-2">
           {products.map((item, i) => (
             <div
               key={i}
