@@ -1,5 +1,11 @@
+import TopNav from "@/components/Categories/TopNav";
+
 const CategoriesPage = () => {
-  return <div>Categories</div>;
+  return (
+    <main className="w-full">
+      <TopNav />
+    </main>
+  );
 };
 
 export default CategoriesPage;
